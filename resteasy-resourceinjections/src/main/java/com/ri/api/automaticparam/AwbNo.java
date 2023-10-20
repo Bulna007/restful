@@ -12,12 +12,11 @@ public class AwbNo {
         this.parcelNo = Integer.parseInt(in.substring(7,10));
     }*/
 
-    /*public AwbNo(String in){
+    public AwbNo(String in){
         this.sourceLocationCode = in.substring(0,3);
         this.destinationCode = in.substring(3,7);
         this.parcelNo = Integer.parseInt(in.substring(7,10));
-    }*/
-
+    }
 
     public String getSourceLocationCode() {
         return sourceLocationCode;
