@@ -4,12 +4,20 @@ public class AwbNo {
     private String sourceLocationCode;
     private String destinationCode;
     private int parcelNo;
+
     /*single arg constructor*/
     /*public AwbNo(String in){
         this.sourceLocationCode = in.substring(0,3);
         this.destinationCode = in.substring(3,7);
         this.parcelNo = Integer.parseInt(in.substring(7,10));
     }*/
+
+    public AwbNo(String in){
+        this.sourceLocationCode = in.substring(0,3);
+        this.destinationCode = in.substring(3,7);
+        this.parcelNo = Integer.parseInt(in.substring(7,10));
+    }
+
 
     public String getSourceLocationCode() {
         return sourceLocationCode;
@@ -53,6 +61,7 @@ public class AwbNo {
         System.out.println("fromString");
         return awbNo;
     }
+
     @Override
     public String toString() {
         return "AwbNo{" +
