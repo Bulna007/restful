@@ -1,0 +1,14 @@
+{
+  "firstName": "paul",
+  "lastName": "a",
+  "age": 22,
+  "gender": "male",
+  "address": {
+    "addressLine1": "phase1",
+    "addressLine2": "hj",
+    "city": "pune",
+    "state": "maharashtra",
+    "pin code": 411067,
+    "country": "india"
+  }
+}

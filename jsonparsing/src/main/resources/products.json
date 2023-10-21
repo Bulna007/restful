@@ -1,0 +1,20 @@
+[
+  {
+    "productCode": 7843,
+    "productName": "parle",
+    "quantity": 24,
+    "price": 87.90
+  },
+  {
+    "productCode": 563,
+    "productName": "britania",
+    "quantity": 48,
+    "price": 23.60
+  },
+  {
+    "productCode": 267,
+    "productName": "nivia",
+    "quantity": 12,
+    "price": 287.90
+  }
+]
